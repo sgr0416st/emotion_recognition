@@ -10,11 +10,11 @@ if __name__ == "__main__":
     receive_IP = ip.mac_pro_IP
     send_IP = ip.mac_IP
 
-    # thread_video_rec = threading.Thread(target=video_record_and_send, args=([dst_video, send_IP]))
+    thread_video_rec = threading.Thread(target=video_record_and_send, args=([dst_video, send_IP]))
     thread_audio_rec = threading.Thread(target=audio_record_and_send_with_sota, args=([dst_audio, send_IP]))
 
-    # thread_video_rec.start()
+    thread_video_rec.start()
     thread_audio_rec.start()
 
-    # thread_video_rec.join()
+    thread_video_rec.join()
     thread_audio_rec.join()

@@ -44,7 +44,9 @@ if __name__ == "__main__":
             if img is None:
                 continue
             else:
-                image = img
+                # image = img
+                image = cv2.resize(img, (768, 1024))
+
                 img_rc_flag.set_true()
 
         receiver.close()
