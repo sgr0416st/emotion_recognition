@@ -45,7 +45,7 @@ if __name__ == "__main__":
                 continue
             else:
                 # image = img
-                image = cv2.resize(img, (768, 1024))
+                image = cv2.resize(img, (1024, 768))
 
                 img_rc_flag.set_true()
 

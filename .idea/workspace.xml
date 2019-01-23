@@ -7,9 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b6747af-c4df-4ef2-b5d2-046d399d6adc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/my_face_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/my_face_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/codes/emotion_recode_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/codes/emotion_recode_sample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_codes/slice_movie_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_codes/slice_movie_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/codes/video_audio_receive_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/codes/video_audio_receive_sample.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +21,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_jupyter.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_jupyter.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="2" />
+      <file leaf-file-name="audio_receive_sample.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/codes/audio_receive_sample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video_audio_record_send_sample.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/codes/video_audio_record_send_sample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video_record_and_send_sample.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/codes/video_record_and_send_sample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="audio_record_and_send_sample.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/codes/audio_record_and_send_sample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video_audio_receive_sample.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/codes/video_audio_receive_sample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video_receive_sample.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/codes/video_receive_sample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="15" selection-start-line="8" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,7 +122,6 @@
         <option value="$PROJECT_DIR$/recognition_microsoft_v2.py" />
         <option value="$PROJECT_DIR$/test_codes/video_record_test.py" />
         <option value="$PROJECT_DIR$/data_output.ipynb" />
-        <option value="$PROJECT_DIR$/test_jupyter.ipynb" />
         <option value="$PROJECT_DIR$/test_codes/send_udp_test.py" />
         <option value="$PROJECT_DIR$/test_codes/recieve_udp_test.py" />
         <option value="$PROJECT_DIR$/test_codes/send_udp_image.py" />
@@ -80,7 +140,6 @@
         <option value="$PROJECT_DIR$/samples/codes/video_receive_sample.py" />
         <option value="$PROJECT_DIR$/lib/video_operater.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/lib/network_data.py" />
         <option value="$PROJECT_DIR$/lib/my_udp.py" />
         <option value="$PROJECT_DIR$/test_codes/test.py" />
         <option value="$PROJECT_DIR$/samples/codes/audio_receive_sample.py" />
@@ -88,10 +147,13 @@
         <option value="$PROJECT_DIR$/lib/sota/command.py" />
         <option value="$PROJECT_DIR$/samples/codes/audio_record_and_send_sample.py" />
         <option value="$PROJECT_DIR$/samples/codes/video_audio_record_send_sample.py" />
-        <option value="$PROJECT_DIR$/samples/codes/video_audio_receive_sample.py" />
         <option value="$PROJECT_DIR$/test_codes/slice_movie_test.py" />
         <option value="$PROJECT_DIR$/lib/my_face_api.py" />
         <option value="$PROJECT_DIR$/samples/codes/emotion_recode_sample.py" />
+        <option value="$PROJECT_DIR$/test_jupyter.ipynb" />
+        <option value="$PROJECT_DIR$/test_codes/test_jupyter.ipynb" />
+        <option value="$PROJECT_DIR$/lib/network_data.py" />
+        <option value="$PROJECT_DIR$/samples/codes/video_audio_receive_sample.py" />
       </list>
     </option>
   </component>
@@ -111,6 +173,16 @@
             <path>
               <item name="emotion_recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="emotion_recognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emotion_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emotion_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emotion_recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emotion_recognition" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="emotion_recognition" type="b2602c69:ProjectViewProjectNode" />
@@ -162,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.emotion_recode_sample">
+  <component name="RunManager" selected="Python.video_audio_record_send_sample">
     <configuration name="emotion_recognition" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="emotion_recognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,6 +264,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/codes/audio_receive_sample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="audio_record_and_send_sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="emotion_recognition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/codes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samples/codes/audio_record_and_send_sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,24 +323,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="slice_movie_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="emotion_recognition" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_codes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_codes/slice_movie_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="video_audio_record_send_sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="emotion_recognition" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,17 +345,17 @@
       <item itemvalue="Jupyter Notebook.emotion_recognition" />
       <item itemvalue="Python.video_audio_record_send_sample" />
       <item itemvalue="Python.audio_receive_sample" />
-      <item itemvalue="Python.slice_movie_test" />
       <item itemvalue="Python.my_face_api" />
       <item itemvalue="Python.emotion_recode_sample" />
+      <item itemvalue="Python.audio_record_and_send_sample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.video_audio_record_send_sample" />
+        <item itemvalue="Python.audio_record_and_send_sample" />
+        <item itemvalue="Python.audio_receive_sample" />
         <item itemvalue="Python.emotion_recode_sample" />
         <item itemvalue="Python.my_face_api" />
-        <item itemvalue="Python.slice_movie_test" />
-        <item itemvalue="Python.video_audio_record_send_sample" />
-        <item itemvalue="Python.audio_receive_sample" />
       </list>
     </recent_temporary>
   </component>
@@ -347,15 +419,30 @@
       <option name="project" value="LOCAL" />
       <updated>1548131952509</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="run experiment">
+      <created>1548204920228</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1548204920228</updated>
+    </task>
+    <task id="LOCAL-00009" summary="run experiment">
+      <created>1548237703780</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1548237703780</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.48821548" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.3262861" side_tool="true" visible="true" weight="0.28" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.3262861" side_tool="true" weight="0.28" />
       <window_info anchor="bottom" id="Run" order="6" sideWeight="0.67371386" visible="true" weight="0.28" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49964765" weight="0.32969698" />
       <window_info anchor="bottom" id="Python Console" order="0" weight="0.32969698" />
@@ -406,7 +493,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="create experiment programs" />
     <MESSAGE value="little modify" />
-    <option name="LAST_COMMIT_MESSAGE" value="little modify" />
+    <MESSAGE value="run experiment" />
+    <option name="LAST_COMMIT_MESSAGE" value="run experiment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -415,16 +503,6 @@
           <url>file://$PROJECT_DIR$/samples/codes/video_receive_sample.py</url>
           <line>10</line>
           <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/samples/codes/audio_receive_sample.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/samples/codes/audio_receive_sample.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -539,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_codes/test_jupyter.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_codes/send_udp_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -588,24 +659,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/codes/video_receive_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="15" selection-start-line="8" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/lib/network_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_codes/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
@@ -665,16 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/codes/video_audio_receive_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_codes/send_udp_image_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -695,52 +739,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/codes/video_record_and_send_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/codes/audio_record_and_send_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/codes/video_audio_record_send_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_codes/slice_movie_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/codes/audio_receive_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="10" selection-start-line="20" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -769,6 +773,87 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/test_jupyter-checkpoint.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_codes/test_jupyter.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/network_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/codes/video_audio_record_send_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/codes/video_record_and_send_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/codes/video_receive_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" selection-start-line="8" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/codes/audio_receive_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/codes/audio_record_and_send_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/codes/video_audio_receive_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
