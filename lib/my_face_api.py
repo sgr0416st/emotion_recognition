@@ -62,13 +62,17 @@ class MyFaceAPI():
             self.body = buffer.tobytes()
 
     def recognize(self):
-        emotion_dict = []
+        emotion_dict = {"emotion": {}}
         try:
             conn = http.client.HTTPSConnection('westus.api.cognitive.microsoft.com')
             conn.request("POST", "/face/v1.0/detect?%s" % self.params, self.body, self.headers)
             response = conn.getresponse()
             data = json.loads(response.read())
-            emotion_dict = data[0]['faceAttributes']
+            if len(data) > 0:
+                if 'message' in data:
+                    print(data['message'])
+                elif 'faceAttributes' in data[0]:
+                    emotion_dict = data[0].get('faceAttributes')
             conn.close()
         except Exception as e:
             print("[Errno {0}] {1}".format(e.errno, e.strerror))
@@ -77,7 +81,9 @@ class MyFaceAPI():
 
 
 if __name__ == '__main__':
+    path = '/Users/satousuguru/workspace/programing/python/emotion_recognition/test_datas/free_face.jpeg'
+    # path = '/Users/satousuguru/workspace/programing/python/emotion_recognition/test_datas/OculusDK2.JPG'
     recognizer = MyFaceAPI(local_file_mode=True)
-    recognizer.read(file_path="/Users/satousuguru/workspace/programing/python/emotion_recognition/test_datas/free_face.jpeg")
+    recognizer.read(file_path=path)
     dict = recognizer.recognize()
     print(json.dumps(dict, indent=4))
